@@ -5,15 +5,8 @@
 //Constructor
 ApplicationManager::ApplicationManager()
 {
-	//Create Input and output
-	pOut = new Output;
-	pIn = pOut->CreateInput();
-	
-	FigCount = 0;
-		
-	//Create an array of figure pointers and set them to NULL		
-	for(int i=0; i<MaxFigCount; i++)
-		FigList[i] = NULL;	
+	int x = 0;
+	int a = 0;
 }
 
 //==================================================================================//
